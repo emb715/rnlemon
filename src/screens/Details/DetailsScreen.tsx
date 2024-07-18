@@ -226,7 +226,7 @@ export function DetailsScreen(props: NativeScreenProp<'Details'>) {
                 borderColor: theme.dark.border,
                 backgroundColor: getHexAlpha(theme.dark.card, 0.4)
               }}>
-              <HStack justifyContent="flex-end" alignItems="center">
+              <HStack alignItems="center" justifyContent="flex-end">
                 <Typography
                   preset="medium"
                   variant="semibold"
@@ -240,7 +240,6 @@ export function DetailsScreen(props: NativeScreenProp<'Details'>) {
                 </Typography>
                 <Typography
                   preset="small"
-                  justifyContent="flex-end"
                   marginLeft={6}
                   _light={{
                     color: theme.light.palette.gray[900]
@@ -252,7 +251,7 @@ export function DetailsScreen(props: NativeScreenProp<'Details'>) {
                 </Typography>
               </HStack>
 
-              <HStack justifyContent="space-between" alignItems="center">
+              <HStack alignItems="center" justifyContent="flex-end">
                 <Typography
                   preset="medium"
                   variant="semibold"
@@ -266,7 +265,6 @@ export function DetailsScreen(props: NativeScreenProp<'Details'>) {
                 </Typography>
                 <Typography
                   preset="small"
-                  justifyContent="flex-end"
                   marginLeft={6}
                   _light={{
                     color: theme.light.palette.gray[900]
