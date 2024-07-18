@@ -1,0 +1,27 @@
+{
+	"folders": [
+		{
+			"path": "./"
+		}
+	],
+	"settings": {
+		"editor.formatOnSave": true,
+		"importSorter.generalConfiguration.sortOnBeforeSave": true,
+		"importSorter.importStringConfiguration.maximumNumberOfImportExpressionsPerLine.type": "newLineEachExpressionAfterCountLimitExceptIfOnlyOne",
+		"importSorter.importStringConfiguration.maximumNumberOfImportExpressionsPerLine.count": 80,
+		"importSorter.importStringConfiguration.tabSize": 2,
+		"importSorter.sortConfiguration.customOrderingRules.defaultNumberOfEmptyLinesAfterGroup": 0,
+		"importSorter.sortConfiguration.customOrderingRules.disableDefaultOrderSort": false,
+		"importSorter.importStringConfiguration.spacingPerImportExpression.afterStartingBracket": 0,
+		"importSorter.importStringConfiguration.spacingPerImportExpression.beforeEndingBracket": 0,
+		"importSorter.importStringConfiguration.hasSemicolon": false,
+		"importSorter.importStringConfiguration.quoteMark": "single",
+		// "importSorter.sortConfiguration.removeUnusedImports": true
+
+	},
+	"extensions": {
+		"recommendations": [
+			"mike-co.import-sorter",
+		]
+	}
+}
